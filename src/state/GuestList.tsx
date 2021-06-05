@@ -9,10 +9,10 @@ const GuestList: React.FC = () => {
   }
   return (
     <div>
-    <h1>Guest List</h1>
-    <input value={name} onChange={(e) => setName(e.target.value) }  />
-    <button onClick={addGuest}>Add</button>
-    {guests.map((guest, index) => <h3 key={index}>{guest}</h3>)}
+      <h1>Guest List</h1>
+      <input value={name} onChange={(e) => setName(e.target.value) }  />
+      <button onClick={addGuest}>Add</button>
+      {guests.map((guest, index) => <h3 key={index}>{guest}</h3>)}
     </div>
   )
 }

@@ -8,8 +8,8 @@ const EventComponent:React.FC = () => {
   }
   return (
     <div>
-    <input onChange={handleOnChange} />
-    <div draggable onDragStart={handleDrag}>Drag me </div>
+      <input onChange={handleOnChange} />
+      <div draggable onDragStart={handleDrag}>Drag me </div>
     </div>
   )
 }
